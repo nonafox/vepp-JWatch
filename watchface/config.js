@@ -1,7 +1,7 @@
 export default {
   schoolWeek: {
-    start: 35,
-    end: 53
+    start: 6,
+    end: 27
   },
   timeList: [
     [
@@ -108,12 +108,12 @@ export default {
         etime: '8:50'
       },
       {
-        name: '化学',
+        name: '英语',
         stime: '9:00',
         etime: '9:40'
       },
       {
-        name: '英语',
+        name: '化学',
         stime: '9:55',
         etime: '10:35'
       },
@@ -133,12 +133,12 @@ export default {
         etime: '15:00'
       },
       {
-        name: '语文',
+        name: '数学',
         stime: '15:10',
         etime: '15:50'
       },
       {
-        name: '数学',
+        name: '语文',
         stime: '16:00',
         etime: '16:40'
       },
@@ -267,7 +267,7 @@ export default {
         etime: '8:05'
       },
       {
-        name: '数学',
+        name: '物理',
         stime: '8:10',
         etime: '8:50'
       },
@@ -277,7 +277,7 @@ export default {
         etime: '9:40'
       },
       {
-        name: '语文',
+        name: '数学',
         stime: '9:55',
         etime: '10:35'
       },
@@ -297,7 +297,7 @@ export default {
         etime: '15:00'
       },
       {
-        name: '物理',
+        name: '语文',
         stime: '15:10',
         etime: '15:50'
       },
