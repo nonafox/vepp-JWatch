@@ -1,7 +1,7 @@
 export default {
   schoolWeek: {
-    start: 6,
-    end: 27
+    start: 7,
+    end: 28
   },
   timeList: [
     [
@@ -148,7 +148,7 @@ export default {
         etime: '17:20'
       },
       {
-        name: '化学晚读',
+        name: '物理晚读',
         stime: '18:50',
         etime: '19:10'
       },
@@ -312,7 +312,7 @@ export default {
         etime: '17:20'
       },
       {
-        name: '物理晚读',
+        name: '化学晚读',
         stime: '18:50',
         etime: '19:10'
       },
@@ -393,7 +393,7 @@ export default {
     [
       {
         name: '看新闻',
-        stime: '19:10',
+        stime: '19:00',
         etime: '19:30'
       },
       {

@@ -38,15 +38,16 @@ WatchFace({
               days += v
             }
             days += time.day
-            let wday = time.week - (days % 7) + 1
-            wday = wday < 0 ? 7 + wday : wday
-            days += wday - 1
+            let mod = days % 7
+            let wday = 7 - ((mod > 0 ? mod : 7) - time.week)
+            console.log(wday);
+            days += wday
             return Math.ceil(days / 7)
           },
           schoolWeekText = () => {
             let nweek = weekNum()
             if (nweek <= schoolWeek.end)
-              return '第' + (nweek - schoolWeek.start) + '学周'
+              return '第' + (nweek - schoolWeek.start + 1) + '学周'
             else
               return ''
           }
