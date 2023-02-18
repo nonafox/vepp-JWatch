@@ -40,7 +40,6 @@ WatchFace({
             days += time.day
             let mod = days % 7
             let wday = 7 - ((mod > 0 ? mod : 7) - time.week)
-            console.log(wday);
             days += wday
             return Math.ceil(days / 7)
           },
