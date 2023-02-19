@@ -43,7 +43,6 @@ WatchFace({
             let diff = mod - time.week
             let wday = diff < 0 ? - diff : 7 - diff
             days += wday
-            console.log(wday)
             return Math.ceil(days / 7)
           },
           schoolWeekText = () => {
